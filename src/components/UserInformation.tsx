@@ -57,14 +57,15 @@ const UserInformation: React.FC = () => {
           </div>  
       </div>
       <div className='float-right mr-6'>
-      <Button
-        className="mb-4 text-6xl justify-end tracking-tight font-extrabold dark:text-white bg-red-600"
-        value="Back to Home"
-      >
-        <Link href="/">
-          Back to Home
-        </Link>
-      </Button>
+      <Link href="/">
+        <Button
+          className="mb-4 text-6xl justify-end tracking-tight font-extrabold dark:text-white bg-red-600"
+          value="Back to Home"
+        >
+          
+            Back to Home
+        </Button>
+      </Link>
       </div>
     </div>
   );

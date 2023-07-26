@@ -8,17 +8,17 @@ const UserInformation: React.FC = () => {
 
   return (
     <div className="h-screen flex items-center justify-center">
+      <Link
+          href="/userInformation"
+        >
       <Button
         className="mb-4 text-6xl tracking-tight font-extrabold dark:text-white"
         value="Edit User Information"
       >
-        <Link
-          href="/userInformation"
-        >
-          Go Profile
-        </Link>
         
+          Go to User Information
       </Button>
+      </Link>
     </div>
   );
 };
